@@ -1,0 +1,12 @@
+###alembic installation:
+pip install alembic
+
+###alembic initialization:
+alembic init alembic
+
+###generate alembic migration:
+alembic revision --message "Added msg" --rev-id 0001
+
+###apply migration
+alembic upgrade head
+
